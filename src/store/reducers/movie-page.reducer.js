@@ -2,6 +2,14 @@ import { createAsyncReducer } from '../util/redux.helpers';
 import { combineReducers } from 'redux';
 import { keys as movieActionKeys } from './../actions/movie-page.actions';
 
+/**
+ * On successful get for movies make sure the response is not an
+ * error then set the current movie list to the results, otherwise
+ * clear the array.
+ *
+ * @param state the current state
+ * @param action the result of the action
+ */
 const moviesSuccessReducer = (state, action) => {
   if (action.response.Response !== 'False') {
     return {
@@ -27,8 +35,7 @@ const moviesSuccessReducer = (state, action) => {
 const moviePageReducer = combineReducers({
   movieSearch: createAsyncReducer(movieActionKeys.SEARCH_MOVIES, {
     [`${movieActionKeys.SEARCH_MOVIES}_SUCCESS`]: moviesSuccessReducer
-  }),
-  movieDetails: createAsyncReducer(movieActionKeys.GET_MOVIE_DETAILS)
+  })
 });
 
 export default moviePageReducer;

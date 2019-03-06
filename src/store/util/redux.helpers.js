@@ -3,8 +3,8 @@ export const createReducer = (
   actionHandlerKeyFuncs = {}
 ) => {
   return (state = initialState, action) => {
-    const actionHandler = actionHandlerKeyFuncs[action.type];
-    return actionHandler ? actionHandler(state, action) : state;
+    const actionHandler = actionHandlerKeyFuncs[action.type]; // Get the appropriate function
+    return actionHandler ? actionHandler(state, action) : state; // If it exists, apply it or return the state as is
   };
 };
 

@@ -24,50 +24,27 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
-      "children": <CardMedia
-        className="cardMedia"
-        overlay={<CardTitle />}
+      "children": <Card
+        className="card"
+        expandable={false}
+        expanded={null}
+        initiallyExpanded={false}
       >
-        <img
-          className="bgImage"
-        />
-      </CardMedia>,
-      "className": "card",
-      "expandable": false,
-      "expanded": null,
-      "initiallyExpanded": false,
+        <CardMedia
+          className="cardMedia"
+          overlay={<CardTitle />}
+        >
+          <img
+            alt="undefined Poster"
+            className="bgImage"
+          />
+        </CardMedia>
+      </Card>,
+      "replace": false,
+      "to": "/movie/undefined",
     },
     "ref": null,
     "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "children": <img
-          className="bgImage"
-        />,
-        "className": "cardMedia",
-        "overlay": <CardTitle />,
-      },
-      "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "className": "bgImage",
-          "src": undefined,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": "img",
-      },
-      "type": [Function],
-    },
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
       "instance": null,
       "key": undefined,
       "nodeType": "class",
@@ -77,6 +54,7 @@ ShallowWrapper {
           overlay={<CardTitle />}
         >
           <img
+            alt="undefined Poster"
             className="bgImage"
           />
         </CardMedia>,
@@ -92,6 +70,7 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "children": <img
+            alt="undefined Poster"
             className="bgImage"
           />,
           "className": "cardMedia",
@@ -103,12 +82,93 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
+            "alt": "undefined Poster",
             "className": "bgImage",
             "src": undefined,
           },
           "ref": null,
           "rendered": null,
           "type": "img",
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Card
+          className="card"
+          expandable={false}
+          expanded={null}
+          initiallyExpanded={false}
+        >
+          <CardMedia
+            className="cardMedia"
+            overlay={<CardTitle />}
+          >
+            <img
+              alt="undefined Poster"
+              className="bgImage"
+            />
+          </CardMedia>
+        </Card>,
+        "replace": false,
+        "to": "/movie/undefined",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <CardMedia
+            className="cardMedia"
+            overlay={<CardTitle />}
+          >
+            <img
+              alt="undefined Poster"
+              className="bgImage"
+            />
+          </CardMedia>,
+          "className": "card",
+          "expandable": false,
+          "expanded": null,
+          "initiallyExpanded": false,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <img
+              alt="undefined Poster"
+              className="bgImage"
+            />,
+            "className": "cardMedia",
+            "overlay": <CardTitle />,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "undefined Poster",
+              "className": "bgImage",
+              "src": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          "type": [Function],
         },
         "type": [Function],
       },

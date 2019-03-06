@@ -1,4 +1,4 @@
-const API_KEY = ''; //ADD API KEY
+const API_KEY = '410daa44'; //ADD API KEY
 const BASE_URL = 'http://www.omdbapi.com/';
 
 const createMovieDbUrl = (relativeUrl, queryParams) => {
@@ -19,7 +19,9 @@ export const searchMovies = async ({ page, s }) => {
   return fetch(fullUrl);
 };
 
-export const getMovieDetails = async ({ movieId }) => {
-  const fullUrl = createMovieDbUrl(`/i=${movieId}`);
+export const getMovieDetails = async ({ i }) => {
+  const fullUrl = createMovieDbUrl('', {
+    i
+  });
   return fetch(fullUrl);
 };

@@ -5,7 +5,6 @@ import { TextField } from 'material-ui';
 import * as movieActions from './../../store/actions/movie-page.actions';
 import * as movieHelpers from './movie-page.helper';
 import MovieList from './../movie-list/movie-list.component';
-
 import './movie-page.scss';
 
 export class MoviePage extends React.Component {
@@ -13,24 +12,21 @@ export class MoviePage extends React.Component {
     const { searchMovies, movieSearch } = this.props;
     const movies = movieHelpers.getMoviesList(movieSearch);
     return (
-      <div>
+      <div className="moviePage">
         <Row className="header">
-          <Col>
+          <Col xs={12} sm={12} md={8} lg={9}>
             <h2>Movies</h2>
           </Col>
-          <Col className="col-3">
+          <Col xs={12} sm={12} md={4} lg={3}>
             <TextField
               id="search"
               placeholder="Search..."
               autoComplete="off"
-              onChange={e => {
-                let param = e.currentTarget.value;
-                searchMovies(param, 1);
-              }}
+              onChange={e => searchMovies(e.currentTarget.value, 1)}
             />
           </Col>
         </Row>
-        <Container>
+        <Container className="movieList">
           <Row>
             <MovieList movies={movies} isLoading={searchMovies.isLoading} />
           </Row>

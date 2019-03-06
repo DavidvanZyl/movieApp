@@ -29,13 +29,21 @@ ShallowWrapper {
         <ForwardRef(Bootstrap(Row))
           className="header"
         >
-          <ForwardRef(Bootstrap(Col))>
+          <ForwardRef(Bootstrap(Col))
+            lg={9}
+            md={8}
+            sm={12}
+            xs={12}
+          >
             <h2>
               Movies
             </h2>
           </ForwardRef(Bootstrap(Col))>
           <ForwardRef(Bootstrap(Col))
-            className="col-3"
+            lg={3}
+            md={4}
+            sm={12}
+            xs={12}
           >
             <TextField
               autoComplete="off"
@@ -52,7 +60,9 @@ ShallowWrapper {
             />
           </ForwardRef(Bootstrap(Col))>
         </ForwardRef(Bootstrap(Row))>,
-        <ForwardRef(Bootstrap(Container))>
+        <ForwardRef(Bootstrap(Container))
+          className="movieList"
+        >
           <ForwardRef(Bootstrap(Row))>
             <MovieListComponent
               isLoading={false}
@@ -61,6 +71,7 @@ ShallowWrapper {
           </ForwardRef(Bootstrap(Row))>
         </ForwardRef(Bootstrap(Container))>,
       ],
+      "className": "moviePage",
     },
     "ref": null,
     "rendered": Array [
@@ -70,13 +81,21 @@ ShallowWrapper {
         "nodeType": "function",
         "props": Object {
           "children": Array [
-            <ForwardRef(Bootstrap(Col))>
+            <ForwardRef(Bootstrap(Col))
+              lg={9}
+              md={8}
+              sm={12}
+              xs={12}
+            >
               <h2>
                 Movies
               </h2>
             </ForwardRef(Bootstrap(Col))>,
             <ForwardRef(Bootstrap(Col))
-              className="col-3"
+              lg={3}
+              md={4}
+              sm={12}
+              xs={12}
             >
               <TextField
                 autoComplete="off"
@@ -105,6 +124,10 @@ ShallowWrapper {
               "children": <h2>
                 Movies
               </h2>,
+              "lg": 9,
+              "md": 8,
+              "sm": 12,
+              "xs": 12,
             },
             "ref": null,
             "rendered": Object {
@@ -143,7 +166,10 @@ ShallowWrapper {
                 type="text"
                 underlineShow={true}
               />,
-              "className": "col-3",
+              "lg": 3,
+              "md": 4,
+              "sm": 12,
+              "xs": 12,
             },
             "ref": null,
             "rendered": Object {
@@ -193,6 +219,7 @@ ShallowWrapper {
               movies={null}
             />
           </ForwardRef(Bootstrap(Row))>,
+          "className": "movieList",
         },
         "ref": null,
         "rendered": Object {
@@ -245,13 +272,21 @@ ShallowWrapper {
           <ForwardRef(Bootstrap(Row))
             className="header"
           >
-            <ForwardRef(Bootstrap(Col))>
+            <ForwardRef(Bootstrap(Col))
+              lg={9}
+              md={8}
+              sm={12}
+              xs={12}
+            >
               <h2>
                 Movies
               </h2>
             </ForwardRef(Bootstrap(Col))>
             <ForwardRef(Bootstrap(Col))
-              className="col-3"
+              lg={3}
+              md={4}
+              sm={12}
+              xs={12}
             >
               <TextField
                 autoComplete="off"
@@ -268,7 +303,9 @@ ShallowWrapper {
               />
             </ForwardRef(Bootstrap(Col))>
           </ForwardRef(Bootstrap(Row))>,
-          <ForwardRef(Bootstrap(Container))>
+          <ForwardRef(Bootstrap(Container))
+            className="movieList"
+          >
             <ForwardRef(Bootstrap(Row))>
               <MovieListComponent
                 isLoading={false}
@@ -277,6 +314,7 @@ ShallowWrapper {
             </ForwardRef(Bootstrap(Row))>
           </ForwardRef(Bootstrap(Container))>,
         ],
+        "className": "moviePage",
       },
       "ref": null,
       "rendered": Array [
@@ -286,13 +324,21 @@ ShallowWrapper {
           "nodeType": "function",
           "props": Object {
             "children": Array [
-              <ForwardRef(Bootstrap(Col))>
+              <ForwardRef(Bootstrap(Col))
+                lg={9}
+                md={8}
+                sm={12}
+                xs={12}
+              >
                 <h2>
                   Movies
                 </h2>
               </ForwardRef(Bootstrap(Col))>,
               <ForwardRef(Bootstrap(Col))
-                className="col-3"
+                lg={3}
+                md={4}
+                sm={12}
+                xs={12}
               >
                 <TextField
                   autoComplete="off"
@@ -321,6 +367,10 @@ ShallowWrapper {
                 "children": <h2>
                   Movies
                 </h2>,
+                "lg": 9,
+                "md": 8,
+                "sm": 12,
+                "xs": 12,
               },
               "ref": null,
               "rendered": Object {
@@ -359,7 +409,10 @@ ShallowWrapper {
                   type="text"
                   underlineShow={true}
                 />,
-                "className": "col-3",
+                "lg": 3,
+                "md": 4,
+                "sm": 12,
+                "xs": 12,
               },
               "ref": null,
               "rendered": Object {
@@ -409,6 +462,7 @@ ShallowWrapper {
                 movies={null}
               />
             </ForwardRef(Bootstrap(Row))>,
+            "className": "movieList",
           },
           "ref": null,
           "rendered": Object {
