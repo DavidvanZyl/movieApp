@@ -1,0 +1,14 @@
+.header {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 2px 1px 15px 1px #555;
+  margin-bottom: 1rem;
+  color: #fff;
+  background-color: #444;
+}
+
+input#search {
+  color: #fff !important;
+}

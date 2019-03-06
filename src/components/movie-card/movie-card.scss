@@ -1,0 +1,33 @@
+.cardTitle {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.cardMedia {
+  max-height: 300px;
+  height: 100%;
+  overflow: hidden;
+
+  & > div {
+    height: 100%;
+  }
+}
+div.card {
+  cursor: pointer;
+  height: 300px;
+  min-width: 215px;
+  overflow: hidden;
+  background-color: #00c9f9;
+
+  & > div {
+    height: 100%;
+  }
+}
+.bgImage {
+  vertical-align: top;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  min-height: 100%;
+  object-position: center center;
+}
