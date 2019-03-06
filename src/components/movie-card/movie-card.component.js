@@ -4,10 +4,6 @@ import { Card, CardTitle, CardMedia } from 'material-ui';
 import './movie-card.scss';
 
 class MovieCardComponent extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     const { movie } = this.props;
 
@@ -17,7 +13,11 @@ class MovieCardComponent extends React.Component {
           className="cardMedia"
           overlay={<CardTitle title={movie.Title} />}
         >
-          <img className="bgImage" src={movie.Poster} />
+          <img
+            className="bgImage"
+            src={movie.Poster}
+            alt={`${movie.Title} Poster`}
+          />
         </CardMedia>
       </Card>
     );

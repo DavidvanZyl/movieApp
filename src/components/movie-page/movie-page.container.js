@@ -25,7 +25,6 @@ export class MoviePage extends React.Component {
               autoComplete="off"
               onChange={e => {
                 let param = e.currentTarget.value;
-                console.log(param);
                 searchMovies(param, 1);
               }}
             />

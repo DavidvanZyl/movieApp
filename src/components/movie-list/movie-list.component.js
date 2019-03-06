@@ -9,7 +9,6 @@ const styles = {
   }
 };
 const MovieListComponent = ({ movies, isLoading }) => {
-  console.log(movies);
   const movieColumns = movies
     ? movies.map(movie => (
         <Col

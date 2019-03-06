@@ -1,4 +1,4 @@
-import { createReducer, createAsyncReducer } from '../util/redux.helpers';
+import { createAsyncReducer } from '../util/redux.helpers';
 import { combineReducers } from 'redux';
 import { keys as movieActionKeys } from './../actions/movie-page.actions';
 
