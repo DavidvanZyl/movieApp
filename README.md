@@ -1,68 +1,55 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Searchable Movie List with Detail Page
 
-## Available Scripts
+A page linked to [OMBD](http://omdbapi.com/) which lets you search for movies by title. You can click on one of the results to
+see more information about the movie.
 
-In the project directory, you can run:
+## Getting Started
 
-### `npm start`
+### Prerequisites
 
-Runs the app in the development mode.<br>
+What things you need to install the software and how to install them
+
+[NodeJS](https://nodejs.org/en/) - The node package manager, Yarn should work fine too if you prefer it.
+
+### Installing
+
+Once you've downloaded or cloned the repo all you need to do is run:
+
+#### `npm i`
+
+### Running a development environment
+
+#### `npm start`
+
+Runs the app in the development mode.
+
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+### Built With
 
-### `npm test`
+- [ReactJS](https://reactjs.org/docs/getting-started.html) - A JavaScript library for building user interfaces.
+- [ReduxJS](https://redux.js.org/introduction/getting-started) - A predictable state container for JavaScript apps.
+- [React-Router](https://reacttraining.com/react-router/web/guides/quick-start) - A popular declarative router for React.
+- [Redux-Thunk](https://github.com/reduxjs/redux-thunk) - Thunks are the recommended middleware for basic Redux side effects logic, including complex synchronous logic that needs access to the store, and simple async logic like AJAX requests. Used here particularly for the async requests to the API by having action creators that return fucntions rather than plain actions.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Jest](https://jestjs.io/docs/en/getting-started) - Test framework that comes with React
+- [Enzyme](https://github.com/airbnb/enzyme) - Test utility from AirBnB
 
-### `npm run build`
+- [MaterialUI](https://material-ui.com/getting-started/installation/) - The world's most popular React UI framework.\*
+- [SCSS](https://sass-lang.com/install) - Powerful professional grade CSS extension language.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Next Steps:
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+- Add Filters
+- Swap Bootstrap for Flex/Grid
+- Add [Sinon](https://sinonjs.org/) and maybe [Chai](https://www.chaijs.com/)?
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Authors
 
-### `npm run eject`
+- **David van Zyl** - [GitHub](https://github.com/DavidvanZyl)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### License
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+\*According to themselves - I haven't seen the data so don't quote me.
