@@ -11,6 +11,8 @@ What things you need to install the software and how to install them
 
 [NodeJS](https://nodejs.org/en/) - The node package manager, Yarn should work fine too if you prefer it.
 
+Head over to [OMBD](http://omdbapi.com/) and get an API KEY, it goes at the top of `src/api/api.js`.
+
 ### Installing
 
 Once you've downloaded or cloned the repo all you need to do is run:
@@ -40,7 +42,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### Next Steps:
 
-- Add Filters
+- Filters
+- Pagination
+- Maybe ghost elements prior to search
 - Swap Bootstrap for Flex/Grid
 - Add [Sinon](https://sinonjs.org/) and maybe [Chai](https://www.chaijs.com/)?
 

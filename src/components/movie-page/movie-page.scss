@@ -1,3 +1,9 @@
+.moviePage {
+  &__search {
+    max-width: 100%;
+  }
+}
+
 input#search {
   color: #fff !important;
 }

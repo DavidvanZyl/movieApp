@@ -19,6 +19,7 @@ export class MoviePage extends React.Component {
           </Col>
           <Col xs={12} sm={12} md={4} lg={3}>
             <TextField
+              className="moviePage__search"
               id="search"
               placeholder="Search..."
               autoComplete="off"
