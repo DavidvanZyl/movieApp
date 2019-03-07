@@ -47,6 +47,7 @@ ShallowWrapper {
           >
             <TextField
               autoComplete="off"
+              className="moviePage__search"
               disabled={false}
               floatingLabelFixed={false}
               fullWidth={false}
@@ -99,6 +100,7 @@ ShallowWrapper {
             >
               <TextField
                 autoComplete="off"
+                className="moviePage__search"
                 disabled={false}
                 floatingLabelFixed={false}
                 fullWidth={false}
@@ -155,6 +157,7 @@ ShallowWrapper {
             "props": Object {
               "children": <TextField
                 autoComplete="off"
+                className="moviePage__search"
                 disabled={false}
                 floatingLabelFixed={false}
                 fullWidth={false}
@@ -178,6 +181,7 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "autoComplete": "off",
+                "className": "moviePage__search",
                 "disabled": false,
                 "floatingLabelFixed": false,
                 "fullWidth": false,
@@ -290,6 +294,7 @@ ShallowWrapper {
             >
               <TextField
                 autoComplete="off"
+                className="moviePage__search"
                 disabled={false}
                 floatingLabelFixed={false}
                 fullWidth={false}
@@ -342,6 +347,7 @@ ShallowWrapper {
               >
                 <TextField
                   autoComplete="off"
+                  className="moviePage__search"
                   disabled={false}
                   floatingLabelFixed={false}
                   fullWidth={false}
@@ -398,6 +404,7 @@ ShallowWrapper {
               "props": Object {
                 "children": <TextField
                   autoComplete="off"
+                  className="moviePage__search"
                   disabled={false}
                   floatingLabelFixed={false}
                   fullWidth={false}
@@ -421,6 +428,7 @@ ShallowWrapper {
                 "nodeType": "class",
                 "props": Object {
                   "autoComplete": "off",
+                  "className": "moviePage__search",
                   "disabled": false,
                   "floatingLabelFixed": false,
                   "fullWidth": false,

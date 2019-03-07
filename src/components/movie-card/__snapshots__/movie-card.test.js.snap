@@ -34,10 +34,7 @@ ShallowWrapper {
           className="cardMedia"
           overlay={<CardTitle />}
         >
-          <img
-            alt="undefined Poster"
-            className="bgImage"
-          />
+          <div />
         </CardMedia>
       </Card>,
       "replace": false,
@@ -53,10 +50,7 @@ ShallowWrapper {
           className="cardMedia"
           overlay={<CardTitle />}
         >
-          <img
-            alt="undefined Poster"
-            className="bgImage"
-          />
+          <div />
         </CardMedia>,
         "className": "card",
         "expandable": false,
@@ -69,10 +63,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "children": <img
-            alt="undefined Poster"
-            className="bgImage"
-          />,
+          "children": <div />,
           "className": "cardMedia",
           "overlay": <CardTitle />,
         },
@@ -81,14 +72,10 @@ ShallowWrapper {
           "instance": null,
           "key": undefined,
           "nodeType": "host",
-          "props": Object {
-            "alt": "undefined Poster",
-            "className": "bgImage",
-            "src": undefined,
-          },
+          "props": Object {},
           "ref": null,
           "rendered": null,
-          "type": "img",
+          "type": "div",
         },
         "type": [Function],
       },
@@ -112,10 +99,7 @@ ShallowWrapper {
             className="cardMedia"
             overlay={<CardTitle />}
           >
-            <img
-              alt="undefined Poster"
-              className="bgImage"
-            />
+            <div />
           </CardMedia>
         </Card>,
         "replace": false,
@@ -131,10 +115,7 @@ ShallowWrapper {
             className="cardMedia"
             overlay={<CardTitle />}
           >
-            <img
-              alt="undefined Poster"
-              className="bgImage"
-            />
+            <div />
           </CardMedia>,
           "className": "card",
           "expandable": false,
@@ -147,10 +128,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "children": <img
-              alt="undefined Poster"
-              className="bgImage"
-            />,
+            "children": <div />,
             "className": "cardMedia",
             "overlay": <CardTitle />,
           },
@@ -159,14 +137,10 @@ ShallowWrapper {
             "instance": null,
             "key": undefined,
             "nodeType": "host",
-            "props": Object {
-              "alt": "undefined Poster",
-              "className": "bgImage",
-              "src": undefined,
-            },
+            "props": Object {},
             "ref": null,
             "rendered": null,
-            "type": "img",
+            "type": "div",
           },
           "type": [Function],
         },
