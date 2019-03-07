@@ -52,4 +52,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-\*According to themselves - I haven't seen the data so don't quote me.
+According to themselves - I haven't seen the data so don't quote me.
