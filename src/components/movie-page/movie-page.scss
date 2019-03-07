@@ -1,0 +1,40 @@
+.moviePage {
+  &__search {
+    max-width: 100%;
+  }
+}
+
+input#search {
+  color: #fff !important;
+}
+
+.movieList {
+  .row {
+    justify-content: center;
+  }
+
+  .col-12 {
+    flex: 0 0 80% !important;
+    max-width: 80% !important;
+    min-width: 350px;
+  }
+
+  .col-sm-4 {
+    @media (min-width: 576px) {
+      flex: 0 0 50% !important;
+      max-width: 50% !important;
+    }
+  }
+
+  .col-md-3 {
+    @media (min-width: 768px) {
+      flex: 0 0 33% !important;
+      max-width: 33% !important;
+    }
+
+    @media (min-width: 1024px) {
+      flex: 0 0 25% !important;
+      max-width: 25% !important;
+    }
+  }
+}

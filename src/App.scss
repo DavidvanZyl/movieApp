@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.App {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.row {
+  justify-content: center;
+}
+
+.container {
+  min-height: 100vh;
+}
+
+.header {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 2px 1px 15px 1px #555;
+  margin-bottom: 1rem;
+  color: #fff;
+  background-color: #444;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.bgImage {
+  vertical-align: top;
+  width: auto;
+  height: auto;
+  min-height: 100%;
+  object-position: center center;
+}
