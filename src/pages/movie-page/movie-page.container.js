@@ -1,10 +1,10 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import { connect } from 'react-redux';
 import { TextField } from 'material-ui';
 import * as movieActions from './../../store/actions/movie-page.actions';
 import * as movieHelpers from './movie-page.helper';
-import MovieList from './../movie-list/movie-list.component';
+import MovieList from './../../components/movie-list/movie-list.component';
 import './movie-page.scss';
 
 export class MoviePage extends React.Component {
@@ -27,11 +27,9 @@ export class MoviePage extends React.Component {
             />
           </Col>
         </Row>
-        <Container className="movieList">
-          <Row>
-            <MovieList movies={movies} isLoading={searchMovies.isLoading} />
-          </Row>
-        </Container>
+        <div className="movies">
+          <MovieList movies={movies} isLoading={movieSearch.isLoading} />
+        </div>
       </div>
     );
   }

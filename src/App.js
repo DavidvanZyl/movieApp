@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
-import MoviePage from './components/movie-page/movie-page.container';
+import MoviePage from './pages/movie-page/movie-page.container';
+import NotFoundComponent from './pages/not-found/not-found.component';
+import MovieDetailComponent from './pages/movie-detail-page/movie-detail-page.component';
+
 import './App.scss';
-import NotFoundComponent from './components/not-found/not-found.component';
-import MovieDetailComponent from './components/movie-detail-page/movie-detail-page.component';
 
 class App extends Component {
   render() {

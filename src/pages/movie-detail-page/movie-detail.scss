@@ -1,12 +1,6 @@
-#root {
-  background: #b3b3b0;
-  background: -webkit-linear-gradient(to bottom, #b3b3b0 0%, #e3e2dd 500px);
-  background: linear-gradient(to bottom, #b3b3b0 0%, #e3e2dd 500px);
-  min-height: 100vh;
-}
-
 .movieDetail {
   width: 100%;
+  height: 100%;
   background-color: #fff;
   padding: 0;
 
@@ -37,8 +31,13 @@
 
   &__text {
     width: 100%;
-    justify-content: flex-start;
+
     margin: 0;
+
+    &--left {
+      justify-content: flex-start;
+      text-align: left;
+    }
   }
 
   &__content {

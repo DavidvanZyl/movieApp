@@ -1,4 +1,5 @@
 html {
+  height: 100vh;
   background: #b3b3b0;
   margin: 0;
   padding: 0;
@@ -9,4 +10,16 @@ body {
   padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+body,
+#root {
+  height: 100%;
+}
+
+#root {
+  background: #b3b3b0;
+  background: -webkit-linear-gradient(to bottom, #b3b3b0 0%, #e3e2dd 500px);
+  background: linear-gradient(to bottom, #b3b3b0 0%, #e3e2dd 500px);
+  min-height: 100vh;
 }

@@ -1,4 +1,7 @@
 .moviePage {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
   &__search {
     max-width: 100%;
   }
@@ -8,7 +11,12 @@ input#search {
   color: #fff !important;
 }
 
-.movieList {
+.movies {
+  min-height: unset;
+  flex: 1;
+  overflow-y: scroll;
+  width: 100%;
+
   .row {
     justify-content: center;
   }
@@ -16,7 +24,7 @@ input#search {
   .col-12 {
     flex: 0 0 80% !important;
     max-width: 80% !important;
-    min-width: 350px;
+    min-width: 290px;
   }
 
   .col-sm-4 {
