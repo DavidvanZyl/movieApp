@@ -11,7 +11,7 @@ describe('MoviePage Container', () => {
   let wrapper;
   beforeEach(() => {
     wrapper = shallow(
-      <MoviePage searchMovies={{ isLoading: false }} movieSearch={null} />
+      <MoviePage searchMovies={{}} movieSearch={{ isLoading: false }} />
     );
   });
 

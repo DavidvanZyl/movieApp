@@ -1,19 +1,12 @@
 import React from 'react';
 import { RefreshIndicator } from 'material-ui';
-
-const styles = {
-  refreshStyle: {
-    position: 'relative',
-    display: 'block',
-    margin: '0 auto'
-  }
-};
+import './loader.scss';
 
 const LoaderComponent = ({ isLoading, children }) => {
   if (isLoading) {
     return (
       <RefreshIndicator
-        style={styles.refreshStyle}
+        className="loader"
         top={0}
         left={0}
         size={80}

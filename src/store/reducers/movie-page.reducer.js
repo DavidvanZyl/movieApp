@@ -3,7 +3,7 @@ import { combineReducers } from 'redux';
 import { keys as movieActionKeys } from './../actions/movie-page.actions';
 
 /**
- * On successful get for movies make sure the response is not an
+ * On successful(ly returned**) get for movies make sure the response is not an
  * error then set the current movie list to the results, otherwise
  * clear the array.
  *

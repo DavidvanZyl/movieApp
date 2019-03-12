@@ -1,7 +1,7 @@
-const API_KEY = '410daa44'; //ADD API KEY
-const BASE_URL = 'http://www.omdbapi.com/';
+export const API_KEY = ''; //ADD API KEY
+export const BASE_URL = 'http://www.omdbapi.com/';
 
-const createMovieDbUrl = (relativeUrl, queryParams) => {
+export const createMovieDbUrl = (relativeUrl, queryParams) => {
   let baseUrl = `${BASE_URL}${relativeUrl}?apikey=${API_KEY}&type=movie`;
   if (queryParams) {
     Object.keys(queryParams).forEach(

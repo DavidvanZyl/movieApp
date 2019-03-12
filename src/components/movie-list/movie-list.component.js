@@ -29,7 +29,9 @@ const MovieListComponent = ({ movies, isLoading }) => {
   return (
     <div className="movieList">
       {movieList}
-      <LoaderComponent isLoading={isLoading} />
+      <LoaderComponent
+        isLoading={isLoading && (!movieList || movieList.length === 0)}
+      />
     </div>
   );
 };
